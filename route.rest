@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/
+61d6c11ee47f270cc0fcb561
+
+###
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "chivo omodu",
+    "subscribedToChannel": "GMC boys"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/
+61d6bc0eb7eaaa38fddbee0c
+
+###
+PATCH http://localhost:3000/subscribers/
+61d6c05fe47f270cc0fcb558
+Content-Type: application/json
+
+{
+  "name": "new diekoo"
+}
